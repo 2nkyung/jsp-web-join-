@@ -9,7 +9,7 @@ select * from member_info order by mi_num desc
 <select id="selectMemberByPk" resultType="member">
 select * from member_info where mi_num #{miNum}
 </select>
-<select id ="selectMemberbyIdandPwd" resultType="member">
+<select id ="selectMemberByIdAndPwd" resultType="member">
 select * from member_info where mi_id=#{miId} and mi_pwd=#{miPwd}
 </select>
    <insert id="insertMember">

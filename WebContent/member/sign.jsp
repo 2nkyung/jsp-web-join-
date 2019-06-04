@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="/member" method="post" enctype="multipart/form-data">
+	<form action="/mem/insert" method="post" enctype="multipart/form-data">
 		이름 : <input type="text" name="miName" id="miName"><br>
 		아이디 : <input type="text" name="miId" id="miId"><br>
 		 비밀번호: <input type="password" name="miPwd" id="miPwd"><br> 
@@ -21,7 +21,7 @@
 			nick : <input type="text" name="miNick"><br>
 			 etc : <input type="text" name="miEtc"><br>
 		file : <input type='file' name="miImg">
-		<button type="submit">회원 가입</button>
+		<button>회원 가입</button>
 
 	</form>
 

@@ -8,13 +8,15 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<script type="text/javascript">
+	<script>
 		<c:if test="${cnt=='1'}">
 		alert('회원가입 성공');
+		location.href='/';
 		</c:if>
 		<c:if test="${cnt!='1'}">
 		alert('회원가입 실패');
-		</c:if>		
+		location.href='member/sign.jsp';
+		</c:if>	
 	</script>
 </body>
 </html>
